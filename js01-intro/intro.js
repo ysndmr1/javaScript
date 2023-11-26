@@ -4,7 +4,7 @@
 
 // Js browserlerin dili diye de adlandilir.
 
-// interpreter tabanli bir dil oldugu icin satir satir calistirarak ilerler, 4 satirda bir hata var ise ilk 3 satirin calisip 4 de hata verir. Compiler tabanli dillerde ise butun kod yazilir taranir ve hata olan satirlar duzeltilir. Bunun sebebi js browserlerdan bilgi cekerek isledigi icin veri geldikce isleniyor. Compiler tabanli diller kodu calisir halde kurulum uzerinden verir ve kullanici kodlari görmez kodlarin calisir halini alir kullanir.-
+// interpreter tabanli bir dil oldugu icin satir satir calistirarak ilerler, 4 satirda bir hata var ise ilk 3 satirin calisip 4 de hata verir. Compiler tabanli dillerde ise butun kod yazilir taranir ve hata olan satirlar duzeltilir. Bunun sebebi js browserlerdan bilgi cekerek isledigi icin veri geldikce isleniyor. Compiler tabanli diller kodu calisir halde kurulum uzerinden verir ve kullanici kodlari görmez kodlarin calisir halini alir kullanir.--
 
 console.log("Hej");
 x = 3.14;
