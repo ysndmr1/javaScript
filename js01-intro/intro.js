@@ -31,4 +31,4 @@ console.log(lang); //! let ile önceden atadigimiz degiskeni degistirebiliriz, a
 
 let ch;
 
-console.log(ch); //! dedigimizde undefined verir icine bir deger verilmediginde js undefined kabul eder, let ile const daki gibi ayni scope da ayni isimle degisken tanimlanamaz
+console.log(ch); //! dedigimizde undefined verir icine bir deger verilmediginde js undefined kabul eder, let ile const daki gibi ayni scope da ayni isimle degisken tanimlanamaz.
