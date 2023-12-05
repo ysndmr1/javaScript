@@ -85,3 +85,84 @@ console.log(`${name}is ${new Date().getFullYear() - yearOfBirth}  years old`);
 // b = b * 3
 // b *= 3 //? b = b *3
 // console.log({ b })
+
+// //* MOD
+// //*--------------------------------------
+// const number = prompt("Please enter a 3-digits number:")
+
+// const ones = number % 10
+// const tens = Math.floor(number / 10) % 10
+// const hundreds = Math.trunc(number / 100)
+// console.log(`Hundreds: ${hundreds}, Tens: ${tens}, Ones: ${ones} `)
+
+// * ================================================
+// *          KARSILASTIRMA OPERATORLERI
+// * ================================================
+
+// const num1 = 3
+
+// console.log(num1 == 3) //? true
+// console.log(num1 === 3) //? true
+// console.log(num1 === "3") //? False
+
+// const num2 = "3"
+
+// console.log(num1 == num2)
+// console.log(num1 != num2) //? false
+
+// const num3 = 5
+// const num4 = "1"
+
+// console.log(num1 > num3) //?false  (3>5)
+// console.log(num1 <= num3) //? true  (3 <= 5)
+
+// console.log(num2 > num4) //? "3" > "1" ASCII'ye gore kiyaslama yapilir
+
+// * ================================================
+// *            MANTIKSAL OPERATORLER
+// * ================================================
+
+const v1 = true;
+const v2 = false;
+
+// console.log(v1 && v2) //? false
+// console.log(v1 || v2) //? true
+
+// console.log(!v1) //?false
+
+// //? Ornek:
+// const age = prompt("Please enter your age:")
+// const healty = confirm("are you healty?")
+// console.log(age, healty)
+
+// if (age >= 18 && healty == true) {
+//   console.log("Ehliyet alabilir")
+// } else {
+//   console.log("ehliyet alamaz")
+// }
+
+//? Javascripte surekli falsy olan 6 deger bulunmaktadir.
+const nal = null;
+const tanimsiz = undefined;
+const bos = "";
+const sayiDegil = NaN;
+const sifir = 0;
+const falsy = false;
+
+console.log(Boolean(0)); //? false
+console.log(Boolean(5)); //? true
+console.log(Boolean(-5)); //? true
+console.log(Boolean(12.4)); //? true
+
+console.log(v1 && null && true && true); //? null
+console.log(v1 && 4 && true && 5); //? 5
+console.log(0 && v1); //? 0
+console.log(v1 || 0); //? true
+
+const num5 = 0; //? falsy
+
+if (num5 === true) {
+  console.log("sayi sifir degildir");
+} else {
+  console.log("sayi sifirdir");
+}
