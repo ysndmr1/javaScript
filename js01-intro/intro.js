@@ -9,3 +9,26 @@
 console.log("Hej");
 x = 3.14;
 console.log(x);
+
+const num = "22";
+console.log(num);
+
+// num = 22; //! assignment constant variable
+
+// const pi; //! missing initializer in const baslangic degeri olmali
+
+// pi = 3
+
+const n1 = "5";
+const n2 = 10;
+console.log(n1 + n2); //! bir ifade string oldugunda concatination yapiyor, web ilk ciktiginda her sey text oldugundan her ifadeyi string tabanli kabul ediyor, en az bir string olmasi yeterli concat yapmasi icin
+
+let lang = "js";
+console.log(lang);
+
+lang = "java";
+console.log(lang); //! let ile önceden atadigimiz degiskeni degistirebiliriz, ayni sekilde boolean yada number degerlerde atanabilir
+
+let ch;
+
+console.log(ch); //! dedigimizde undefined verir icine bir deger verilmediginde js undefined kabul eder, let ile const daki gibi ayni scope da ayni isimle degisken tanimlanamaz
