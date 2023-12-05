@@ -32,3 +32,8 @@ console.log(lang); //! let ile önceden atadigimiz degiskeni degistirebiliriz, a
 let ch;
 
 console.log(ch); //! dedigimizde undefined verir icine bir deger verilmediginde js undefined kabul eder, let ile const daki gibi ayni scope da ayni isimle degisken tanimlanamaz.
+
+//! terminalden push yapmak icin
+//! git add file name "js01-intro/intro.js"
+//! git commit -m "your message"
+//! git push origin main
