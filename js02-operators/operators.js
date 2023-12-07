@@ -166,3 +166,24 @@ if (num5 === true) {
 } else {
   console.log("sayi sifirdir");
 }
+
+// * =============================================
+// *            TIP DONUSUMLERI
+// * =============================================
+
+const dolar = "1000";
+const tl = "500";
+
+const totalMoney = Number(dolar) + Number(tl);
+const totalMoney1 = +dolar + +tl;
+const totalMoney2 = parseInt(dolar) + parseInt(tl);
+const totalMoney3 = parseFloat(dolar) + parseFloat(tl);
+console.log(totalMoney3);
+
+console.log(Number(null)); //? 0
+console.log(Number("")); //? 0
+console.log(Number("12.3")); //? 12.3
+console.log(Number("1ab")); //? NaN
+console.log(Number("0b101")); //? 5 ("binary sayi sistemi")
+console.log(Number("0x10")); //? 16  (hex sayi sistemi)
+console.log(String(55));
