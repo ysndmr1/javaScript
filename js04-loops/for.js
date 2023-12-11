@@ -30,3 +30,44 @@
 //* Math.ceil() =>en yaki ust tamsayiya yuvarlar
 //* Math.round() => degerine gore yuvarlar.
 //* Math.trunc() => kesirli sayinin tam kismini alir.
+
+//? ÖRNEK: Girilen bir sayinin Asal olup olmadigini yazdiran kodu
+//? for dongulerini kullanarak yaziniz.
+
+// const primeNum = Number(prompt("Enter a number"))
+
+// //? Flag method
+// let isPrime = true
+
+// if (primeNum < 2) {
+//   console.log("Number should be bigger than 1 ")
+// } else {
+//   for (let i = 2; i < primeNum; i++) {
+//     if (primeNum % i === 0) {
+//       //? Tam bolunuyorsa asal degildir
+//       console.log(`${primeNum} is not a prime number-${i}`)
+//       isPrime = false
+//       break
+//     }
+//   }
+
+//   if (isPrime === true) {
+//     console.log(`${primeNum} is a prime number`)
+//   }
+// }
+
+// * ============================================
+// *            DONGULER(LOOPS)- WHILE
+// * ============================================
+
+// console.log("****** WHILE *******");
+
+// let count = 1;
+// while (count <= 10) {
+//   console.log("Count:", count);
+//   count++;
+// }
+
+//? ORNEK: Kullanicidan 0-100 arasinda bir not isteyen ve girilen not
+//? 0-100'den farkli ise Kullaciniyi uyararak yeniden 0-100 arasinda
+//? not girmeye zorlayan kodu while dongusu ile yaziniz.
